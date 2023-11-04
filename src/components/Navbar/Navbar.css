@@ -1,0 +1,38 @@
+.navbar {
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+  z-index: 2;
+  background-color: var(--primary-color);
+}
+
+.navbar-left,
+.navbar-right {
+  margin: 50px;
+}
+
+.app-heading-navbar {
+  font-size: var(--m-size);
+}
+
+.app-heading-navbar span {
+  color: var(--action-color);
+}
+
+.nav-items {
+  box-sizing: border-box;
+  padding: 15px 20px;
+}
+
+.active {
+  color: var(--action-color);
+  border-bottom: 4px solid var(--action-color);
+  border-radius: 5px;
+}
